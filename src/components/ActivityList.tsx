@@ -34,7 +34,7 @@ export default function ActivityList({ activities, dispatch }: ActivityListProps
             <p className="text-2xl font-bold pt-5">{activity.name}</p>
             <p className="font-black text-4xl text-lime-500">
               {+activity.calories}
-              {""}
+
               <span>Calorías</span>
             </p>
           </div>
